@@ -6,4 +6,5 @@ npx hardhat compile
 npx hardhat test
 npx hardhat ignition deploy ./ignition/modules/Token.js
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Token.js --network localhost
+npx hardhat ignition deploy ./ignition/modules/SmartHomesShare.js --network sepolia
+npx hardhat ignition deploy ./ignition/modules/SmartHomes.js --network sepolia --verify
